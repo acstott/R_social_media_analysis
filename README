@@ -1,0 +1,28 @@
+#This is a simple example of loading a matrix in R and plotting it using igraph. 
+
+#Dataset is included
+
+#You will need to install R and igraph - R can be installed with homebrew on mac or equivalent package manager on Linux
+
+#homebrew installation
+
+brew tap homebrew/science
+brew install R
+
+
+#igraph can be installed from R
+
+## Download and install the package
+install.packages("igraph")
+
+## Load package
+library(igraph)
+ 
+
+#Run the script using the command
+
+Rscript social_script.r
+
+#Plot is generated as a .pdf and is included here
+
+
